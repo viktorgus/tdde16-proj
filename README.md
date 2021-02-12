@@ -1,7 +1,7 @@
 # Project in TDDE16
 Final project in course in Text Mining, NLP
 - Code for project: ext_summaries.ipynb
-- Report for projhect: 
+- Report for project: Report TDDE16.pdf
 
 ## Evaluation of Unsupervised Text Summarization Algorithms
 This work investigates the potential performance gains of using sentence embeddings from S-BERT when using extractive unsupervised text summarization models such as LSA, Clustering and TextRank compared with using TFIDF. The CNN/Daily Mail dataset is used for evaluation with ROUGE scores as metrics. The performance of these models are also measured over the number of sentences allowed in the summary, to study how well the algorithms scales with summary length.
