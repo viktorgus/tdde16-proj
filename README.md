@@ -6,6 +6,11 @@ This work investigates the potential performance gains of using sentence embeddi
 
 Models that utilize sentence similarity as the main metric for summary generation, such as Clustering, sees the largest performance increase at around 20\% compared to using TFIDF. However, the models that performs better with TFIDF, TextRank and Weighted LSA, still performs best on the dataset. TextRank performs better on shorter summaries, while weighted LSA performs better on summaries with four sentences.
 
+## Evaluation outcome
+Read more about evaluation, models, and discussion in the report.
+![perf](https://user-images.githubusercontent.com/46990011/107773112-75b28b00-6d3d-11eb-91da-0e4c1b8b948f.png)
+
+
 ## Code
 - ext_summaries.ipynb contains model and test code
 - dataset_analysis.ipynb contains code to analyse the dataset used
